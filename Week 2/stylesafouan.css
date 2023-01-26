@@ -1,0 +1,165 @@
+body{
+    scroll-behavior: smooth;
+    background-color: #E9EFF5;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media  (min-width:1200px) {
+    .wrapper{
+        width:1200px;
+        margin: 0 auto;
+    }
+
+}
+
+#divh1{
+    margin: 5vh auto;
+    text-align: center;
+}
+
+main h1{
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 0.6vh #EF415A solid;
+}
+
+figure{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+h1, h2{
+
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+}
+
+/* opmaak eerste section */
+
+.section1{
+    display: flex;
+    margin-top: 10vh;
+}
+.section1 figure{
+    flex-basis: 50%;
+}
+
+.section1 img{
+    box-shadow: -1rem -1rem #2F3247;
+}
+.section1 div{
+    flex-basis: 50%;
+    justify-content: center;
+   
+}
+
+.section1 h2{
+    font-size: 3.5em;
+    text-align: center;
+}
+
+
+
+/* opmaak tweede section */
+
+.section2{
+    display: flex;
+    margin-top: 15vh;
+}
+
+.section2 div, .section2 figure{
+    flex-basis: 50%;
+    
+}
+
+.section2 img{
+    box-shadow: -1rem -1rem #2F3247;
+}
+
+
+.section2 p{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 15vh;
+    
+}
+
+.section3{
+    display: flex;
+    margin-top: 10vh;
+}
+
+.section3 div, .section3 p{
+    flex-basis: 50%;
+    
+}
+
+.section3 h2{
+    font-size: 3.5em;
+}
+
+.section3 p{
+    margin: 40vh 0 0 5vh;
+    
+}
+
+.section3 img{
+    text-align: left;
+   
+    box-shadow: -1rem 1rem #2F3247;
+}
+
+.section3 figure{
+    
+    position: relative;
+    right: 2.5vw;
+    line-height: 0;
+    
+    
+}
+
+.section4{
+    display: flex;
+    padding-top: 15vh;
+}
+
+.section4 div, .section4 p{
+    flex-basis: 50%;
+}
+
+.section4 div{
+    text-align: right;
+}
+
+.section4 figure{
+    position: relative;
+    right: 3.2vw;
+}
+
+.section4 p{
+    padding-top: 20vh;
+}
+
+
+
+
