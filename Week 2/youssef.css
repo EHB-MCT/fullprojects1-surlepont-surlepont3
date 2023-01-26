@@ -714,6 +714,7 @@ footer {
 
     .container img {
          width: calc(90% + 7rem);
+         box-shadow: 1.5rem 1.5rem #ef415a;
      
     }
 
