@@ -605,10 +605,83 @@ footer {
 
     /********** Hero (1) **********/
 
+    .hero-text {
+        position: relative;
+        top: 60px;
+        font-size: 2rem;
+        line-height: 4rem;
+       
+     }
+
+     .first-text h1 {
+        position: relative;
+        top: 1.5rem;
+    }
+    
+    .first-text::before {
+        content: '';
+        position: absolute;
+        top: 30px;
+        left: 58px;
+        width: 330px;
+        height: 20px;
+        background-color: #ef415a;
+        z-index: -1;
+    
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    
+    .second-text {
+        margin-top: -0.8em;
+    }
+    
+    .second-text::before {
+        content: '';
+        position: absolute;
+        top: 100px;
+        left: 58px;
+        width: 545px;
+        height: 20px;
+        background-color: #ef415a;
+        z-index: -1;
+    
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    
+    .third-text {
+        margin-top: -0.8em;
+    }
+    
+    .third-text::before {
+        content: '';
+        position: absolute;
+        top: 160px;
+        left: 58px;
+        width: 520px;
+        height: 20px;
+        background-color: #ef415a;
+        z-index: -1;
+    
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+
     figure {
         width: 5.5rem;
         position: relative;
-        top: 41vh;
+        top: 30vh;
         left: 27vw;
         margin-left: auto;
         margin-right: auto;
