@@ -32,7 +32,7 @@
             
             <ul>
                 <li><a href="#">Accueille</a></li>
-                <li><a href="#">L'histoire</a></li>
+                <li><a href="geschiedenis.html">L'histoire</a></li>
                 <li><a href="#">Plans</a></li>
                 <li><a href="#">Contact</a></li>
 
@@ -110,7 +110,6 @@
 
         </section>
 
-        <div class="outer-wrapper blue">
 
         <section class="petition">
             <div class="petition-text">
@@ -122,8 +121,6 @@
             <a href="#" class="button-petition">Signer la pétition</a>
         </section>
 
-        </div>
-        
     </main>
 
     </div>
@@ -174,7 +171,11 @@
                 nav.classList.add('open-nav')
 
             })
+            
+            close.addEventListener('click', () => {
+                nav.classList.remove('open-nav')
 
+            })
 
         })
      </script>
