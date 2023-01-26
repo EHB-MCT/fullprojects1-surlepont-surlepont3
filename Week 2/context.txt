@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+
+Start Mobile first, then desktop !
+
+----------------------------------------------------------------
+
+Referentie video: Learn HTML & CSS in 2022 | Crash Course / for responsive
+
+----------------------------------------------------------------
+
+Good to know ! :
+
+Font-size: use rem.
+
+Width, max-width en min-widh: use %.
+
+Margin and padding use: em.
+
+----------------------------------------------------------------
