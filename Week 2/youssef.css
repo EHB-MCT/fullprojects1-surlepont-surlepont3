@@ -513,7 +513,7 @@ footer {
         box-shadow: 0.7rem 0.7rem #ef415a; 
     }
 
-     /********** Petitie (3)**********/
+     /********** Petitie (4)**********/
 
      .petition-text p {
         max-width: 60%;
@@ -591,6 +591,16 @@ footer {
         width: 1200px;
         margin: 0 auto;
     }
+
+    .outer-wrapper {
+        width: 100%;
+    }
+
+    .darkblue {
+        background-color: #000000;
+    }
+
+   
 
     /********** Nav **********/
 
@@ -715,6 +725,16 @@ footer {
          width: calc(90% + 7rem);
          box-shadow: 1.5rem 1.5rem #ef415a;
      
+    }
+
+
+
+    
+    /********** Petitie (4)**********/
+
+    .petition p {
+        font-size: 0.8rem;
+        max-width: 50%;
     }
 
 
