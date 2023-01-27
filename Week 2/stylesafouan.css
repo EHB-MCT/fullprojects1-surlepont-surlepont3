@@ -261,6 +261,10 @@ p{
     
 }
 
+.section8 h2{
+    font-size: 3.5em;
+}
+
 .section8 p, .section8 div{
     flex-basis: 50%;
 }
