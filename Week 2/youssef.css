@@ -5,9 +5,7 @@ body {
 
 
 
-
 /********** Nav **********/
-
 header {
     display: flex;
     justify-content: space-between; 
@@ -68,7 +66,6 @@ ul a:hover {
     animation: rightSlide 1s backwards; 
 }
 
-
 @keyframes rightSlide {
     from {
         clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
@@ -91,9 +88,7 @@ ul a:hover {
 
 
 
-
 /********** Main **********/
-
 main{
     padding-top: 575px;
 }
@@ -102,7 +97,6 @@ main{
 
 
 /********** Hero (1)**********/
-
 .hero-text {
     position: relative;
     top: 60px;
@@ -244,9 +238,7 @@ figure {
 
 
 
-
 /********** About us (2)**********/
-
 .about-us {
     padding: 0 10px 60px 10px;
 }
@@ -273,60 +265,7 @@ figure {
 
 
 
-
-
-/********** Petitie (4)**********/
-
-.petition {
-    text-align: center;
-    color: white;
-    background-color: #2f3247;
-    padding: 20px 10px 50px 10px;
-    
-}
-
-.petition-text {
-    margin-bottom: 2em;
-}
-
-.petition h2 {
-    font-size: 1.35rem;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.petition p {
-    font-size: 0.7rem;
-    font-family: "montserrat", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.button-petition {
-    background-color: #ef415a;
-    color: white;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    padding: 15px;
-    transition: 0.2s;
-    letter-spacing: 0.5px;
-}
-
-.button-petition:hover {
-    background-color: #7a7a7a;  
-}
-
-.button-petition ,a {
-    text-decoration: none;
-}
-
-
-
-
 /********** Footer **********/
-
 footer {
     text-align: center;
     padding-top: 30px;
@@ -348,6 +287,7 @@ footer {
     font-size: 3rem;
     color: black;
     transition: 0.8s;
+    text-decoration: none;
 }
 
 .footer-facebook-icon:hover {
@@ -385,11 +325,9 @@ footer {
 
 
 /** Tablet **/
-
 @media (min-width: 768px) { 
 
     /********** Nav **********/
-
     header {
        padding: 10px 20px 0 20px;
     }
@@ -489,7 +427,6 @@ footer {
     }
 
     /********** About us (2)**********/
-
     .about-us {
        display: flex;
        padding: 40px 20px 85px 20px;
@@ -513,19 +450,9 @@ footer {
         box-shadow: 0.7rem 0.7rem #ef415a; 
     }
 
-     /********** Petitie (4)**********/
 
-     .petition-text p {
-        max-width: 60%;
-        margin: 0 auto;
-     }
-
-     .button-petition {
-        padding: 12.5px;
-    }
 
     /********** Footer **********/
-
     footer {
        display: flex;
        padding: 40px 20px 10px 20px;
@@ -582,11 +509,9 @@ footer {
 
 
 /** Desktop **/
-
 @media (min-width: 1200px) {
 
     /** Wrapper **/
-
     .wrapper {
         width: 1200px;
         margin: 0 auto;
@@ -600,20 +525,20 @@ footer {
         background-color: #000000;
     }
 
-   
+
 
     /********** Nav **********/
 
 
 
     /********** Main **********/
-    
     main{
     padding-top: 700px;
     }
 
-    /********** Hero (1) **********/
 
+
+    /********** Hero (1) **********/
     .hero-text {
         position: relative;
         top: 60px;
@@ -699,9 +624,9 @@ footer {
         text-align: center;
     }
 
+
+
     /********** About Us (2) **********/
-
-
     .about-us {
         padding: 0 10px 125px 10px;
     }
@@ -729,23 +654,7 @@ footer {
 
 
 
-    
-    /********** Petitie (4)**********/
-
-    .petition p {
-        font-size: 0.8rem;
-        max-width: 50%;
-    }
-
-
-
-  
-
-
-
-
     /********** Footer **********/
-
     footer {
         margin-left: 16.5em;
     
