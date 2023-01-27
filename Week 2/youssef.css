@@ -315,7 +315,7 @@ figure {
 }
 
 .button-petition:hover {
-    background-color: #372121;  
+    background-color: #7a7a7a;  
 }
 
 .button-petition ,a {
@@ -592,6 +592,10 @@ footer {
         margin: 0 auto;
     }
 
+    /********** Nav **********/
+
+
+
     /********** Main **********/
     
     main{
@@ -619,7 +623,7 @@ footer {
         top: 30px;
         left: 58px;
         width: 330px;
-        height: 20px;
+        height: 25px;
         background-color: #ef415a;
         z-index: -1;
     
@@ -637,10 +641,10 @@ footer {
     .second-text::before {
         content: '';
         position: absolute;
-        top: 100px;
+        top: 96px;
         left: 58px;
         width: 545px;
-        height: 20px;
+        height: 25px;
         background-color: #ef415a;
         z-index: -1;
     
@@ -660,8 +664,8 @@ footer {
         position: absolute;
         top: 160px;
         left: 58px;
-        width: 520px;
-        height: 20px;
+        width: 510px;
+        height: 25px;
         background-color: #ef415a;
         z-index: -1;
     
