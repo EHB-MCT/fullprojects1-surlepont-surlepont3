@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+body {
+    margin: 0;
+  }
+
 .wrapper{
     width: 1170px;
     margin: 0 auto;
@@ -7,6 +11,9 @@
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(6, minmax(100px, auto));
     position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100%;
 }
 #grid{
     position:absolute;
@@ -42,6 +49,7 @@ header{
     text-decoration-color: #EF415A;
     text-decoration-thickness: 5px;
     font-size: 43px;
+    text-align: center;
 }
 .headline h2{
     margin-top: 65px;
@@ -49,36 +57,7 @@ header{
     font-size: 23px;
     font-weight:normal;
 }
-footer{
-    background-color: #2F3247;
-    grid-column: 1/13;
-    text-align: center;
-    padding-bottom: 100px;
-    
-}
-footer h3{
-    margin-top: 75px;
-    color: #FFF;
-    font-family:"articulat-cf",sans-serif;
-    font-weight: bold;
-    margin-bottom: 50px;
-}
-footer a{
-    color: #FFF;
-    font-family:"articulat-cf",sans-serif;
-    font-weight: bolder;
 
-    
-}
-footer .button{
-    padding: 15px 30px;
-    background-color: #EF415A;
-    text-decoration: none;
-    
-}
-footer .button:hover{
-    background-color: #d90429;
-}
 .imgs img{
     width: 255px;
     margin-left: 30px;
@@ -92,15 +71,17 @@ footer .button:hover{
 .imgs3 img{
     width:255px;
     margin-left: 30px;
+    margin-bottom: 40px;
 }
 
 .petition {
     text-align: center;
     color: white;
     background-color: #2f3247;
-    margin-top: 40px;
+
     padding: 20px 10px 50px 10px;
     grid-column: 1/13;
+    
 }
 
 .petition-text {
