@@ -56,25 +56,27 @@ header{
     font-family: 'Montserrat',sans-serif;
     font-size: 23px;
     font-weight:normal;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .imgs img{
     width: 320px;
     margin-left: 60px;
     margin-bottom: 10px;
+    height: 400px;
 }
 .imgs2 img{
     width: 320px;
     margin-left: 162px;
     margin-bottom: 10px;
-    
+    height: 400px;
 }
 .imgs3 img{
     width:320px;
     margin-left: 60px;
     margin-bottom: 40px;
+    height: 400px;
 }
 
 .petition {
