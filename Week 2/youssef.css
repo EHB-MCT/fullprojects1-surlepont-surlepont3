@@ -1,866 +1,783 @@
 body {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
-
-
 
 /********** Nav **********/
 header {
-    display: flex;
-    justify-content: space-between; 
-    padding: 10px 10px 0 10px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 10px 0 10px;
 }
 
 .logo {
-    width: 5rem;
-    margin-top: -0.5em;
+	width: 5rem;
+	margin-top: -0.5em;
 }
 
 nav {
-    position: fixed;
-    right: 0;
-    top: 0;
-    height: 100vh;
-    background-color:#2f3247;
-    width: 50%;
-    z-index: 2;
-    transform:  translateX(100%);
+	position: fixed;
+	right: 0;
+	top: 0;
+	height: 100vh;
+	background-color: #2f3247;
+	width: 50%;
+	z-index: 2;
+	transform: translateX(100%);
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 7em;
+	list-style: none;
+	padding: 0;
+	margin-top: 7em;
 }
 
 ul a {
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: white;
-    padding:  .6em;
-    text-align: center;
-    display: block;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color: white;
+	padding: 0.6em;
+	text-align: center;
+	display: block;
 }
 
 ul a:hover {
-    color:#ef415a;
+	color: #ef415a;
 }
 
 .facebook-link a {
-    text-decoration: none;
-    font-size: 2.5rem; 
+	text-decoration: none;
+	font-size: 2.5rem;
 }
 
 .menu {
-    font-size: 2.5em;
-    margin-top: 0.2em;
-    cursor: pointer;
+	font-size: 2.5em;
+	margin-top: 0.2em;
+	cursor: pointer;
 }
 
 .open-nav {
-    transform: translateX(0%);
-    animation: rightSlide 1s backwards; 
+	transform: translateX(0%);
+	animation: rightSlide 1s backwards;
 }
 
 @keyframes rightSlide {
-    from {
-        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
-    }
+	from {
+		clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+	}
 
-    to {
-        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
-    }
+	to {
+		clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+	}
 }
 
 .close {
-    float: right;
-    margin: 0.8em 0.4em 0.5em 0.4em;
-    font-size: 2.05em;
-    color: white;
-    animation: leftSlide 1s backwards; 
-    cursor: pointer;
-   
+	float: right;
+	margin: 0.8em 0.4em 0.5em 0.4em;
+	font-size: 2.05em;
+	color: white;
+	animation: leftSlide 1s backwards;
+	cursor: pointer;
 }
-
-
 
 /********** Main **********/
-main{
-    padding-top: 480px;
+main {
+	padding-top: 480px;
 }
-
-
 
 /********** Hero (1)**********/
 .hero-text {
-    position: relative;
-    top: 60px;
-    color: white;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 1.1rem;
-    line-height: 3rem;
-    text-align: center;
-    margin-top: 3.5em;
-    animation: moveDown 1s  ease-in-out forwards;
-    opacity: 0;
- }
- 
- @keyframes moveDown {
-     from {
-         transform: translateY(-10px);
-     }
- 
-     to {
-         transform: translateY(0);
-         opacity: 1;
-     } 
- }
+	position: relative;
+	top: 60px;
+	color: white;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 1.1rem;
+	line-height: 3rem;
+	text-align: center;
+	margin-top: 3.5em;
+	animation: moveDown 1s ease-in-out forwards;
+	opacity: 0;
+}
+
+@keyframes moveDown {
+	from {
+		transform: translateY(-10px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
 
 .hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url(./images/homepage.png);
-    background-size: cover;
-    background-position-x: 50%;
-    background-position-y: 50%;
-    width: 100%;
-    height: 82vh;
-    z-index: -1;
-    margin-top: 4.25em;
-    animation: introLoad 2s backwards;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(./images/homepage.png);
+	background-size: cover;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	width: 100%;
+	height: 82vh;
+	z-index: -1;
+	margin-top: 4.25em;
+	animation: introLoad 2s backwards;
 }
 
 @keyframes introLoad {
-    from {
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
+	from {
+		clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	}
 
-    to {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
+	to {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	}
 }
 
 .first-text h1 {
-    position: relative;
-    top: 1.5rem;
+	position: relative;
+	top: 1.5rem;
 }
 
 .first-text::before {
-    content: '';
-    position: absolute;
-    top: 25px;
-    left: 58px;
-    width: 190px;
-    height: 15px;
-    background-color: #ef415a;
-    z-index: -1;
+	content: "";
+	position: absolute;
+	top: 25px;
+	left: 58px;
+	width: 190px;
+	height: 15px;
+	background-color: #ef415a;
+	z-index: -1;
 
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
 .second-text {
-    margin-top: -0.8em;
+	margin-top: -0.8em;
 }
 
 .second-text::before {
-    content: '';
-    position: absolute;
-    top: 72px;
-    left: 58px;
-    width: 300px;
-    height: 15px;
-    background-color: #ef415a;
-    z-index: -1;
+	content: "";
+	position: absolute;
+	top: 72px;
+	left: 58px;
+	width: 300px;
+	height: 15px;
+	background-color: #ef415a;
+	z-index: -1;
 
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
 .third-text {
-    margin-top: -0.8em;
+	margin-top: -0.8em;
 }
 
 .third-text::before {
-    content: '';
-    position: absolute;
-    top: 120px;
-    left: 58px;
-    width: 290px;
-    height: 15px;
-    background-color: #ef415a;
-    z-index: -1;
+	content: "";
+	position: absolute;
+	top: 120px;
+	left: 58px;
+	width: 290px;
+	height: 15px;
+	background-color: #ef415a;
+	z-index: -1;
 
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
 figure {
-    width: 4rem;
-    position: relative;
-    top: 39vh;
-    left: 27vw;
-    animation: moveArrow 1s alternate-reverse infinite;
+	width: 4rem;
+	position: relative;
+	top: 39vh;
+	left: 27vw;
+	animation: moveArrow 1s alternate-reverse infinite;
 
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
 @keyframes moveArrow {
-    from {
-        transform: translateY(-20px);
-    }
+	from {
+		transform: translateY(-20px);
+	}
 
-    to {
-        transform: translateY(0);
-    } 
+	to {
+		transform: translateY(0);
+	}
 }
-
-
 
 /********** Carousel-surlepont (2)**********/
 .carousel-surlepont {
-    padding: 0 10px 60px 10px;
-
+	padding: 0 10px 60px 10px;
 }
 
 .carousel-surlepont h1 {
-    font-size: 1.5rem;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 800;
-    font-style: normal;  
-    text-align: flex-start;
+	font-size: 1.5rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	text-align: flex-start;
 }
 
-   .carousel-surlepont {
-    padding: 30px 10px 60px 10px;
-} 
-  
-  .carousel-surlepont img{
-    width:  200px;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  section.carousel-surlepont {
-    width: 94%;
-    overflow: hidden;
-    margin-top: 60px; 
-  }
-  
-  article {
-    display: flex;
-    width: 300%;
-    animation: bannermove 15s linear infinite;
-  }
-  
-  .loop {
-    width: 100%;
-  }
+.carousel-surlepont {
+	padding: 30px 10px 60px 10px;
+}
 
-  .loop ul { 
-    display: flex;
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-    align-items: center;
-  }
-  
-  .loop li {
-    width: 100%;
-    margin-left: 15px;
-  }
-  
-  @keyframes bannermove {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
+.carousel-surlepont img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
 
+section.carousel-surlepont {
+	width: 94%;
+	overflow: hidden;
+	margin-top: 60px;
+}
 
+article {
+	display: flex;
+	width: 300%;
+	animation: bannermove 15s linear infinite;
+}
 
+.loop {
+	width: 100%;
+}
+
+.loop ul {
+	display: flex;
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	align-items: center;
+}
+
+.loop li {
+	width: 100%;
+	margin-left: 15px;
+}
+
+@keyframes bannermove {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-50%);
+	}
+}
 
 /********** About us (3)**********/
 .about-us {
-    padding: 0 10px 60px 10px;
+	padding: 0 10px 60px 10px;
 }
 
 .text h1 {
-    font-size: 1.5rem;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 800;
-    font-style: normal;  
-
+	font-size: 1.5rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 800;
+	font-style: normal;
 }
 
-
 .text {
-    font-size: 0.75rem;
-    color: black;
-    font-family: "montserrat", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+	font-size: 0.75rem;
+	color: black;
+	font-family: "montserrat", sans-serif;
+	font-weight: 500;
+	font-style: normal;
 }
 
 .container img {
-    width: 100%;
-    
+	width: 100%;
 }
 
 span {
-    font-weight: bold;
+	font-weight: bold;
 }
 
-
-
- /********** Carousel-surlepont (4)**********/
- .les-amis-dupont {
-    padding: 0 10px 60px 10px;
-
-} 
+/********** Carousel-surlepont (4)**********/
+.les-amis-dupont {
+	padding: 0 10px 60px 10px;
+}
 
 .les-amis-dupont h1 {
-    font-size: 1.5rem;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 800;
-    font-style: normal;  
-    text-align: center;
+	font-size: 1.5rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	text-align: center;
 }
-
-
 
 /********** Footer **********/
 
 footer {
-    text-align: center;
-    padding-top: 30px;
-    padding: 40px 20px 5px 20px;
+	text-align: center;
+	padding-top: 30px;
+	padding: 40px 20px 5px 20px;
 }
 
 footer a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
-.footer-logo{
-    width: 6.5rem;
+.footer-logo {
+	width: 6.5rem;
 }
 
 .footer-facebook-link h2 {
-    font-size: 1.35rem;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+	font-size: 1.35rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 .footer-facebook-icon {
-    font-size: 3rem;
-    color: black;
-    transition: 0.8s;
-    text-decoration: none;
+	font-size: 3rem;
+	color: black;
+	transition: 0.8s;
+	text-decoration: none;
 }
 
 .footer-facebook-icon:hover {
-    color: #676767;
+	color: #676767;
 }
 
 .footer-contact h2 {
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 .footer-contact p {
-    font-size: 1rem;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+	font-size: 1rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 .footer-contact a {
-    color: black; 
+	color: black;
 }
 
 .copyright p {
-    font-size: 0.7rem;
-    font-family: "montserrat", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    text-align: center;
+	font-size: 0.7rem;
+	font-family: "montserrat", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;
 }
-
-
 
 /** Tablet **/
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
+	/********** Nav **********/
+	header {
+		padding: 10px 20px 0 20px;
+	}
 
-    /********** Nav **********/
-    header {
-       padding: 10px 20px 0 20px;
-    }
+	ul a {
+		font-size: 1.7rem;
+	}
 
-    ul a {
-       font-size: 1.7rem;
-    }
+	.close {
+		margin: 0.8em 0.5em 0.5em 0.5em;
+	}
 
-    .close {
-        margin: 0.8em 0.5em 0.5em 0.5em;
-    }
+	/********** Main **********/
+	main {
+		padding-top: 500px;
+	}
 
-    /********** Main **********/
-    main{
-        padding-top: 500px;
-    }
+	/********** Hero (1)**********/
 
+	.hero-text {
+		font-size: 1.6rem;
+	}
 
+	.first-text h1 {
+		position: relative;
+		top: 1.5rem;
+	}
 
-    /********** Hero (1)**********/
+	.first-text::before {
+		content: "";
+		position: absolute;
+		top: 25px;
+		left: 58px;
+		width: 260px;
+		height: 20px;
+		background-color: #ef415a;
+		z-index: -1;
 
-    .hero-text {
-        font-size: 1.6rem;
-    }
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
 
-     .first-text h1 {
-        position: relative;
-        top: 1.5rem;
-    }
-    
-    .first-text::before {
-        content: '';
-        position: absolute;
-        top: 25px;
-        left: 58px;
-        width: 260px;
-        height: 20px;
-        background-color: #ef415a;
-        z-index: -1;
-    
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
-    
-    .second-text {
-        margin-top: -0.8em;
-    }
-    
-    .second-text::before {
-        content: '';
-        position: absolute;
-        top: 72px;
-        left: 58px;
-        width: 435px;
-        height: 20px;
-        background-color: #ef415a;
-        z-index: -1;
-    
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
-    
-    .third-text {
-        margin-top: -0.8em;
-    }
-    
-    .third-text::before {
-        content: '';
-        position: absolute;
-        top: 120px;
-        left: 58px;
-        width: 400px;
-        height: 20px;
-        background-color: #ef415a;
-        z-index: -1;
-    
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
+	.second-text {
+		margin-top: -0.8em;
+	}
 
-    figure {
-        width: 4.8rem;
-        position: relative;
-        top: 34vh;
-        left: 27vw;
-        animation: moveArrow 1s alternate-reverse infinite;
-    
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
+	.second-text::before {
+		content: "";
+		position: absolute;
+		top: 72px;
+		left: 58px;
+		width: 435px;
+		height: 20px;
+		background-color: #ef415a;
+		z-index: -1;
 
-    /********** Carousel-surlepont (2)**********/
-    .carousel-surlepont {
-        padding: 40px 20px 40px 20px;
-    } 
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
 
-    .carousel-surlepont h1 {
-        font-size: 1.8rem; 
-        text-align: center;
-    }
+	.third-text {
+		margin-top: -0.8em;
+	}
 
-    .carousel-surlepont img{
-        width:  250px;
-        height: 250px;
-        object-fit: cover;
-    }
-      
-    section.carousel-surlepont {
-        margin-top: 60px; 
-    }
+	.third-text::before {
+		content: "";
+		position: absolute;
+		top: 120px;
+		left: 58px;
+		width: 400px;
+		height: 20px;
+		background-color: #ef415a;
+		z-index: -1;
 
-    article {
-        animation: bannermove 30s linear infinite;
-    }
-      
-   
-      
-      
-   
-      
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
 
-    /********** About us (3)**********/
-    .about-us {
-       display: flex;
-       padding: 40px 20px 40px 20px;
-       gap: 25px;
-      
-    }
+	figure {
+		width: 4.8rem;
+		position: relative;
+		top: 34vh;
+		left: 27vw;
+		animation: moveArrow 1s alternate-reverse infinite;
 
-    .text {
-        max-width: 50%;
-        font-size: 0.8rem;
-      
-    }
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
 
-    .text h1 {
-        font-size: 1.8rem;
-    }
+	/********** Carousel-surlepont (2)**********/
+	.carousel-surlepont {
+		padding: 40px 20px 40px 20px;
+	}
 
-    .container img {
-        margin-top: 3.5rem;
-        width: calc(100% - 0.7rem);
-        box-shadow: 0.7rem 0.7rem #ef415a; 
-    }
+	.carousel-surlepont h1 {
+		font-size: 1.8rem;
+		text-align: center;
+	}
 
+	.carousel-surlepont img {
+		width: 250px;
+		height: 250px;
+		object-fit: cover;
+	}
 
+	section.carousel-surlepont {
+		margin-top: 60px;
+	}
 
-     /********** Carousel-surlepont (4)**********/
-    .les-amis-dupont {
-        padding: 40px 20px 85px 20px;
+	article {
+		animation: bannermove 30s linear infinite;
+	}
 
-    } 
+	/********** About us (3)**********/
+	.about-us {
+		display: flex;
+		padding: 40px 20px 40px 20px;
+		gap: 25px;
+	}
 
-    .les-amis-dupont h1 {
-       font-size: 1.8rem;
-       text-align: center;
-    
-    }
+	.text {
+		max-width: 50%;
+		font-size: 0.8rem;
+	}
 
+	.text h1 {
+		font-size: 1.8rem;
+	}
 
+	.container img {
+		margin-top: 3.5rem;
+		width: calc(100% - 0.7rem);
+		box-shadow: 0.7rem 0.7rem #ef415a;
+	}
 
-    /********** Footer **********/
-    footer {
-       display: flex;
-       padding: 40px 20px 10px 20px;
-       margin-left: 90px;
-    }
+	/********** Carousel-surlepont (4)**********/
+	.les-amis-dupont {
+		padding: 40px 20px 85px 20px;
+	}
 
-    .footer-logo{
-        width: 6.5rem;
-    }
-    
-    .footer-facebook-link h2 {
-        font-size: 1.2rem;
-        font-family: "articulat-cf", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        max-width: 70%;
-        margin: 0 auto;
-        margin-bottom: 1rem;
-    }
-    
-    .footer-facebook-icon {
-        font-size: 3rem;
-        color: black;
-        transition: 0.8s;
-    }
-    
-    .footer-facebook-icon:hover {
-        color: #676767;
-    }
-    
-    .footer-contact h2 {
-        font-family: "articulat-cf", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        text-align: left;
-    }
-    
-    .footer-contact p {
-        font-size: 0.8rem;
-        text-align: left;
-        font-family: "articulat-cf", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-    
-    .copyright p {
-        padding-top: 30px;
-        padding-bottom: 10px ;
-        text-align: center;
-    }
+	.les-amis-dupont h1 {
+		font-size: 1.8rem;
+		text-align: center;
+	}
 
+	/********** Footer **********/
+	footer {
+		display: flex;
+		padding: 40px 20px 10px 20px;
+		margin-left: 90px;
+	}
+
+	.footer-logo {
+		width: 6.5rem;
+	}
+
+	.footer-facebook-link h2 {
+		font-size: 1.2rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		max-width: 70%;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+
+	.footer-facebook-icon {
+		font-size: 3rem;
+		color: black;
+		transition: 0.8s;
+	}
+
+	.footer-facebook-icon:hover {
+		color: #676767;
+	}
+
+	.footer-contact h2 {
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		text-align: left;
+	}
+
+	.footer-contact p {
+		font-size: 0.8rem;
+		text-align: left;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	.copyright p {
+		padding-top: 30px;
+		padding-bottom: 10px;
+		text-align: center;
+	}
 }
-
-
 
 /** Desktop **/
 @media (min-width: 1200px) {
+	body {
+		background-image: url(images/Vorm.svg);
+		background-size: 35%;
+		background-repeat: no-repeat;
+		background-position: 0 800px;
+	}
+	/** Wrapper **/
+	.wrapper {
+		width: 1200px;
+		margin: 0 auto;
+	}
 
-    /** Wrapper **/
-    .wrapper {
-        width: 1200px;
-        margin: 0 auto;
-    }
+	/********** Nav **********/
 
-    .outer-wrapper {
-        width: 100%;
-    }
+	/********** Main **********/
+	main {
+		padding-top: 600px;
+	}
 
-    .darkblue {
-        background-color: #000000;
-    }
+	/********** Hero (1) **********/
+	.hero-text {
+		position: relative;
+		top: 60px;
+		font-size: 2rem;
+		line-height: 4rem;
+	}
 
+	.first-text h1 {
+		position: relative;
+		top: 1.5rem;
+	}
 
+	.first-text::before {
+		content: "";
+		position: absolute;
+		top: 30px;
+		left: 58px;
+		width: 330px;
+		height: 25px;
+		background-color: #ef415a;
+		z-index: -1;
 
-    /********** Nav **********/
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
 
+	.second-text {
+		margin-top: -0.8em;
+	}
 
+	.second-text::before {
+		content: "";
+		position: absolute;
+		top: 96px;
+		left: 58px;
+		width: 545px;
+		height: 25px;
+		background-color: #ef415a;
+		z-index: -1;
 
-    /********** Main **********/
-    main{
-       padding-top: 600px;
-    }
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
 
+	.third-text {
+		margin-top: -0.8em;
+	}
 
+	.third-text::before {
+		content: "";
+		position: absolute;
+		top: 160px;
+		left: 58px;
+		width: 510px;
+		height: 25px;
+		background-color: #ef415a;
+		z-index: -1;
 
-    /********** Hero (1) **********/
-    .hero-text {
-        position: relative;
-        top: 60px;
-        font-size: 2rem;
-        line-height: 4rem;
-       
-     }
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
 
-     .first-text h1 {
-        position: relative;
-        top: 1.5rem;
-    }
-    
-    .first-text::before {
-        content: '';
-        position: absolute;
-        top: 30px;
-        left: 58px;
-        width: 330px;
-        height: 25px;
-        background-color: #ef415a;
-        z-index: -1;
-    
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
-    
-    .second-text {
-        margin-top: -0.8em;
-    }
-    
-    .second-text::before {
-        content: '';
-        position: absolute;
-        top: 96px;
-        left: 58px;
-        width: 545px;
-        height: 25px;
-        background-color: #ef415a;
-        z-index: -1;
-    
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
-    
-    .third-text {
-        margin-top: -0.8em;
-    }
-    
-    .third-text::before {
-        content: '';
-        position: absolute;
-        top: 160px;
-        left: 58px;
-        width: 510px;
-        height: 25px;
-        background-color: #ef415a;
-        z-index: -1;
-    
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
+	figure {
+		width: 5.5rem;
+		position: relative;
+		top: 30vh;
+		left: 27vw;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
 
+	/********** Carousel-surlepont (2)**********/
+	.carousel-surlepont {
+		padding: 0 10px 125px 10px;
+	}
 
-    figure {
-        width: 5.5rem;
-        position: relative;
-        top: 30vh;
-        left: 27vw;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
+	.carousel-surlepont h1 {
+		font-size: 2.5rem;
+		text-align: center;
+	}
 
+	.carousel-surlepont img {
+		width: 350px;
+		height: 350px;
+		object-fit: cover;
+	}
 
+	section.carousel-surlepont {
+		margin-top: 100px;
+	}
 
-    /********** Carousel-surlepont (2)**********/
-    .carousel-surlepont {
-        padding: 0 10px 125px 10px;
-    } 
+	article {
+		animation: bannermove 50s linear infinite;
+	}
 
-    .carousel-surlepont h1 {
-        font-size: 2.5rem; 
-        text-align: center;
-    }
+	/********** About Us (3) **********/
 
-    .carousel-surlepont img{
-        width:  350px;
-        height: 350px;
-        object-fit: cover;
-    }
-    
-    section.carousel-surlepont {
-        margin-top: 100px; 
-    }
+	.about-us {
+		padding: 0 10px 125px 10px;
+	}
 
-    article {
-        animation: bannermove 50s linear infinite;
-    }
-      
-      
-    /********** About Us (3) **********/
+	.text h1 {
+		font-size: 2.5rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+	}
 
-    .about-us {
-        padding: 0 10px 125px 10px;
-    }
+	.text {
+		font-size: 1rem;
+		color: black;
+		font-family: "montserrat", sans-serif;
+		font-weight: 500;
+		font-style: normal;
+	}
 
-    .text h1 {
-        font-size: 2.5rem;
-        font-family: "articulat-cf", sans-serif;
-        font-weight: 800;
-        font-style: normal;  
-    }  
+	.container img {
+		width: calc(90% + 7rem);
+		box-shadow: 1.5rem 1.5rem #ef415a;
+	}
 
-    .text {
-        font-size: 1rem;
-        color: black;
-        font-family: "montserrat", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-    }
+	/********** Carousel-surlepont (4)**********/
+	.les-amis-dupont {
+		padding: 0 10px 125px 10px;
+	}
 
-    .container img {
-        width: calc(90% + 7rem);
-        box-shadow: 1.5rem 1.5rem #ef415a;
-     
-    }
+	.les-amis-dupont h1 {
+		font-size: 2.5rem;
+	}
 
-    /********** Carousel-surlepont (4)**********/
-    .les-amis-dupont {
-        padding: 0 10px 125px 10px;
- 
-    } 
+	/********** Footer **********/
+	footer {
+		margin-left: 16.5em;
+	}
 
-    .les-amis-dupont h1 {
-        font-size: 2.5rem;
-    }
-
- 
-
-
-
-    /********** Footer **********/
-    footer {
-        margin-left: 16.5em;
-    
-     }
-
-     
-    .close {
-        float: right;
-        margin: 0.8em 4.5em 0.5em 3em;
-        font-size: 2.5em;
-        color: white;
-    }
-
-
-    
-
-    
-
-
-
-
+	.close {
+		float: right;
+		margin: 0.8em 4.5em 0.5em 3em;
+		font-size: 2.5em;
+		color: white;
+	}
 }
-
-
-
-
-
- 
-
-
- 
