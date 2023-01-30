@@ -54,25 +54,79 @@ header{
 .headline h2{
     margin-top: 65px;
     font-family: 'Montserrat',sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     font-weight:normal;
     margin-left: 100px;
     margin-right: 100px;
 }
+.plan{
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.plan img{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.render{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    
+}
+.render img{
+    width: 475px;
+    padding: 5px;
+}
+.render2{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.render2 img{
+    width: 475px;
+    padding: 5px;
 
-.imgs img{
+}
+.beliris h1{
+    margin-top: 80px;
+    font-family:"articulat-cf",sans-serif;
+    font-weight: bold;
+    text-decoration-line:underline;
+    text-decoration-color: #EF415A;
+    text-decoration-thickness: 5px;
+    font-size: 43px;
+    text-align: center;
+}
+.beliris h2{
+    margin-top: 40px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight:normal;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.images img{
     width: 320px;
     margin-left: 60px;
     margin-bottom: 10px;
     height: 400px;
+    margin-top: 10px;
 }
-.imgs2 img{
+.images2 img{
     width: 320px;
     margin-left: 162px;
     margin-bottom: 10px;
     height: 400px;
 }
-.imgs3 img{
+.images3 img{
     width:320px;
     margin-left: 60px;
     margin-bottom: 40px;
