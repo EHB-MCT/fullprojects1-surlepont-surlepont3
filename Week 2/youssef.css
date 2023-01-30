@@ -251,20 +251,9 @@ figure {
     text-align: flex-start;
 }
 
-   /********** Carousel-surlepont (2)**********/
    .carousel-surlepont {
     padding: 30px 10px 60px 10px;
 } 
-
-
-
-
-.carousel.surlepont h1 {
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    text-align: center;
-  }
   
   .carousel-surlepont img{
     width:  200px;
@@ -281,7 +270,7 @@ figure {
   article {
     display: flex;
     width: 300%;
-    animation: bannermove 70s linear infinite;
+    animation: bannermove 15s linear infinite;
   }
   
   .loop {
@@ -323,6 +312,7 @@ figure {
     font-family: "articulat-cf", sans-serif;
     font-weight: 800;
     font-style: normal;  
+
 }
 
 
@@ -535,7 +525,6 @@ footer a {
     /********** Carousel-surlepont (2)**********/
     .carousel-surlepont {
         padding: 40px 20px 40px 20px;
-
     } 
 
     .carousel-surlepont h1 {
@@ -543,58 +532,25 @@ footer a {
         text-align: center;
     }
 
-
-    .carousel.surlepont h1 {
-        font-family: "articulat-cf", sans-serif;
-        font-weight: 800;
-        font-style: normal;
-        text-align: center;
-      }
-      
-      .carousel-surlepont img{
-        width:  200px;
-        height: 200px;
+    .carousel-surlepont img{
+        width:  250px;
+        height: 250px;
         object-fit: cover;
-      }
+    }
       
-      section.carousel-surlepont {
-        width: 94%;
-        overflow: hidden;
+    section.carousel-surlepont {
         margin-top: 60px; 
-      }
-      
-      article {
-        display: flex;
-        width: 300%;
-        animation: bannermove 70s linear infinite;
-      }
-      
-      .loop {
-        width: 100%;
-      }
-    
-      .loop ul { 
-        display: flex;
-        list-style-type: none;
-        padding-left: 0;
-        margin: 0;
-        align-items: center;
-      }
-      
-      .loop li {
-        width: 100%;
-        margin-left: 15px;
-      }
-      
-      @keyframes bannermove {
-        0% {
-          transform: translateX(0);
-        }
-        100% {
-          transform: translateX(-50%);
-        }
-      }
+    }
 
+    article {
+        animation: bannermove 30s linear infinite;
+    }
+      
+   
+      
+      
+   
+      
 
     /********** About us (3)**********/
     .about-us {
@@ -813,8 +769,6 @@ footer a {
     /********** Carousel-surlepont (2)**********/
     .carousel-surlepont {
         padding: 0 10px 125px 10px;
-        
-
     } 
 
     .carousel-surlepont h1 {
@@ -822,59 +776,23 @@ footer a {
         text-align: center;
     }
 
-    .carousel.surlepont h1 {
-        font-family: "articulat-cf", sans-serif;
-        font-weight: 800;
-        font-style: normal;
-        text-align: center;
-      }
-      
-      .carousel-surlepont img{
+    .carousel-surlepont img{
         width:  350px;
         height: 350px;
         object-fit: cover;
-      }
-      
-      section.carousel-surlepont {
-        width: 100%;
-        overflow: hidden;
-        margin-top: 100px; 
-      }
-      
-      article {
-        display: flex;
-        width: 300%;
-        animation: bannermove 70s linear infinite;
-      }
-      
-      .loop {
-        width: 100%;
-      }
+    }
     
-      .loop ul { 
-        display: flex;
-        list-style-type: none;
-        padding-left: 0;
-        margin: 0;
-        align-items: center;
-      }
-      
-      .loop li {
-        width: 100%;
-        margin-left: 15px;
-      }
-      
-      @keyframes bannermove {
-        0% {
-          transform: translateX(0);
-        }
-        100% {
-          transform: translateX(-50%);
-        }
-      }
+    section.carousel-surlepont {
+        margin-top: 100px; 
+    }
 
-
+    article {
+        animation: bannermove 50s linear infinite;
+    }
+      
+      
     /********** About Us (3) **********/
+
     .about-us {
         padding: 0 10px 125px 10px;
     }
