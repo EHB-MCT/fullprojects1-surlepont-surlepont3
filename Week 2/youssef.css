@@ -90,7 +90,7 @@ ul a:hover {
 
 /********** Main **********/
 main{
-    padding-top: 575px;
+    padding-top: 480px;
 }
 
 
@@ -248,7 +248,68 @@ figure {
     font-family: "articulat-cf", sans-serif;
     font-weight: 800;
     font-style: normal;  
+    text-align: flex-start;
 }
+
+   /********** Carousel-surlepont (2)**********/
+   .carousel-surlepont {
+    padding: 30px 10px 60px 10px;
+} 
+
+
+
+
+.carousel.surlepont h1 {
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+  }
+  
+  .carousel-surlepont img{
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  section.carousel-surlepont {
+    width: 94%;
+    overflow: hidden;
+    margin-top: 60px; 
+  }
+  
+  article {
+    display: flex;
+    width: 300%;
+    animation: bannermove 70s linear infinite;
+  }
+  
+  .loop {
+    width: 100%;
+  }
+
+  .loop ul { 
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    align-items: center;
+  }
+  
+  .loop li {
+    width: 100%;
+    margin-left: 15px;
+  }
+  
+  @keyframes bannermove {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
 
 
 
@@ -380,6 +441,11 @@ footer a {
         margin: 0.8em 0.5em 0.5em 0.5em;
     }
 
+    /********** Main **********/
+    main{
+        padding-top: 500px;
+    }
+
 
 
     /********** Hero (1)**********/
@@ -468,7 +534,7 @@ footer a {
 
     /********** Carousel-surlepont (2)**********/
     .carousel-surlepont {
-        padding: 40px 20px 85px 20px;
+        padding: 40px 20px 40px 20px;
 
     } 
 
@@ -477,10 +543,63 @@ footer a {
         text-align: center;
     }
 
+
+    .carousel.surlepont h1 {
+        font-family: "articulat-cf", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        text-align: center;
+      }
+      
+      .carousel-surlepont img{
+        width:  200px;
+        height: 200px;
+        object-fit: cover;
+      }
+      
+      section.carousel-surlepont {
+        width: 94%;
+        overflow: hidden;
+        margin-top: 60px; 
+      }
+      
+      article {
+        display: flex;
+        width: 300%;
+        animation: bannermove 70s linear infinite;
+      }
+      
+      .loop {
+        width: 100%;
+      }
+    
+      .loop ul { 
+        display: flex;
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+        align-items: center;
+      }
+      
+      .loop li {
+        width: 100%;
+        margin-left: 15px;
+      }
+      
+      @keyframes bannermove {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+
     /********** About us (3)**********/
     .about-us {
        display: flex;
-       padding: 40px 20px 85px 20px;
+       padding: 40px 20px 40px 20px;
        gap: 25px;
       
     }
@@ -598,7 +717,7 @@ footer a {
 
     /********** Main **********/
     main{
-    padding-top: 700px;
+       padding-top: 600px;
     }
 
 
@@ -694,6 +813,7 @@ footer a {
     /********** Carousel-surlepont (2)**********/
     .carousel-surlepont {
         padding: 0 10px 125px 10px;
+        
 
     } 
 
@@ -702,6 +822,56 @@ footer a {
         text-align: center;
     }
 
+    .carousel.surlepont h1 {
+        font-family: "articulat-cf", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        text-align: center;
+      }
+      
+      .carousel-surlepont img{
+        width:  350px;
+        height: 350px;
+        object-fit: cover;
+      }
+      
+      section.carousel-surlepont {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 100px; 
+      }
+      
+      article {
+        display: flex;
+        width: 300%;
+        animation: bannermove 70s linear infinite;
+      }
+      
+      .loop {
+        width: 100%;
+      }
+    
+      .loop ul { 
+        display: flex;
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+        align-items: center;
+      }
+      
+      .loop li {
+        width: 100%;
+        margin-left: 15px;
+      }
+      
+      @keyframes bannermove {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
 
 
     /********** About Us (3) **********/
