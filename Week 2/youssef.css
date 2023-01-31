@@ -537,8 +537,9 @@ footer a {
 	}
 
 	.container img {
-		margin-top: 3.5rem;
+		margin-top: 2.5rem;
 		width: calc(100% - 0.7rem);
+		width: 330px;
 		box-shadow: 0.7rem 0.7rem #ef415a;
 	}
 
@@ -610,14 +611,11 @@ footer a {
 /** Desktop **/
 @media (min-width: 1200px) {
 	body {
-		background-image: url(images/vorming.svg);
+		background-image: url(images/vorma.svg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: 0 800px;
-
 	}
-
-	
 
 	/** Wrapper **/
 	.wrapper {
