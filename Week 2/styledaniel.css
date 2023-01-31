@@ -114,13 +114,114 @@ h1{
   font-family: "articulate cf", sans-serif;
   text-align: center;
 }
-.container{
+
+.container {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 50%;
+  max-width:100%;
   display: flex;
-  margin: 0 auto;
-  background-color: red;
+  margin: 10vh auto; 
 }
 
-.containerchild1, .from{
+.containerchild1, .form{
+  flex-basis: 60%;
+}
+
+.containerchild1{
+  border-left: 2px #EF415A solid;
+  padding-left: 2vh ;
+}
+
+h3 {
+  color: #EF415A;
+}
+.form{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #EF415A;
+  padding: 5vh 0 0 2vw;
+
+  margin: 0 auto;
+
+}
+
+.form-control {
+  margin-bottom: 40px;
+  padding-bottom: 15px;
+  position: relative;
   
 }
 
+iframe{
+  width: 250px;
+  height: 250px;
+}
+
+label{
+  color: white;
+}
+
+.form-control label {
+  display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  width: 50%;
+  padding: 1vh;
+  
+}
+
+.form-control.succes input{
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control i {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.form-control.succes i.fa-check-circle {
+  visibility: visible;
+  color: #2ecc71;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+.form-control small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.form-control.error small {
+  color:#e74c3c;
+  visibility: visible;
+}
+
+.form button {
+  background-color: #2F3247;
+  border: 2px solid #2F3247;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 1vh;
+}
