@@ -537,10 +537,13 @@ footer a {
 	}
 
 	.container img {
-		margin-top: 3.5rem;
+		margin-top: 2.5rem;
 		width: calc(100% - 0.7rem);
+		width: 330px;
 		box-shadow: 0.7rem 0.7rem #ef415a;
 	}
+
+	
 
 	/********** Carousel-surlepont (4)**********/
 	.les-amis-dupont {
@@ -608,11 +611,12 @@ footer a {
 /** Desktop **/
 @media (min-width: 1200px) {
 	body {
-		background-image: url(images/Vorm.svg);
-		background-size: 35%;
+		background-image: url(images/vorma.svg);
+		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: 0 800px;
 	}
+
 	/** Wrapper **/
 	.wrapper {
 		width: 1200px;
@@ -718,6 +722,17 @@ footer a {
 	.carousel-surlepont h1 {
 		font-size: 2.5rem;
 		text-align: center;
+		position: relative;
+	}
+
+	.carousel-surlepont h1:after {
+		content: "";
+		position: absolute;
+		top: 105%;
+		left: 44%;
+		border: 3px solid #ef415a;
+		width: 150px;
+	
 	}
 
 	.carousel-surlepont img {
@@ -738,6 +753,7 @@ footer a {
 
 	.about-us {
 		padding: 0 10px 125px 10px;
+		gap: 65px;
 	}
 
 	.text h1 {
@@ -745,6 +761,16 @@ footer a {
 		font-family: "articulat-cf", sans-serif;
 		font-weight: 800;
 		font-style: normal;
+		position: relative;
+	}
+
+	.text h1:after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 1%;
+		border: 3px solid #ef415a;
+		width: 80px;
 	}
 
 	.text {
@@ -757,6 +783,7 @@ footer a {
 
 	.container img {
 		width: calc(90% + 7rem);
+		height: 315px;
 		box-shadow: 1.5rem 1.5rem #ef415a;
 	}
 
@@ -767,6 +794,17 @@ footer a {
 
 	.les-amis-dupont h1 {
 		font-size: 2.5rem;
+		position: relative;
+	}
+
+	.les-amis-dupont h1:after {
+		content: "";
+		position: absolute;
+		top: 105%;
+		left: 45.5%;
+		border: 3px solid #ef415a;
+		width: 100px;
+	
 	}
 
 	/********** Footer **********/
