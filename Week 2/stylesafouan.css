@@ -1,6 +1,7 @@
 body{
     scroll-behavior: smooth;
     background-color: #E9EFF5;
+
 }
 
 main{
@@ -10,14 +11,14 @@ main{
 }
 
 
-    .wrapper{
-        max-width:1200px;
-        margin: 0 auto;
-        background-color: red;
-    }
+.wrapper{
+    max-width:1200px;
+    margin: 0 auto;
+}
 
-
-
+header{
+    margin-bottom: 15vh;
+}
 #divh1{
     margin: 5vh auto;
     text-align: center;
@@ -29,8 +30,7 @@ main h1{
     font-style: normal;
     display: inline-block;
     margin: 0 auto;
-    text-align: center;
-    border-bottom: 0.6vh #EF415A solid;
+  
 }
 
 figure{
@@ -66,7 +66,7 @@ p{
 }
 
 .section1 img{
-    box-shadow: -1rem -1rem #719c8a;
+    box-shadow: -1rem -1rem #ef415a;
 }
 .section1 div{
     flex-basis: 50%;
@@ -76,7 +76,10 @@ p{
 
 .section1 h2{
     font-size: 3.5em;
-    text-align: center;
+    border-bottom: #ef415a 5px solid;
+    display: inline-block;
+    padding: 0;
+    margin-left: 35%;
 }
 
 
@@ -94,7 +97,7 @@ p{
 }
 
 .section2 img{
-    box-shadow: 1rem 1rem #b9cbc1;
+    box-shadow: 1rem 1rem #ef415a;
 }
 
 
@@ -118,6 +121,10 @@ p{
 
 .section3 h2{
     font-size: 3.5em;
+    border-bottom: #ef415a 5px solid;
+    display: inline-block;
+    padding: 0;
+    margin-left: 25px;
 }
 
 .section3 p{
@@ -128,7 +135,7 @@ p{
 .section3 img{
     text-align: left;
    
-    box-shadow: -1rem -1rem #719c8a;
+    box-shadow: -1rem -1rem #ef415a;
 }
 
 .section3 figure{
@@ -160,10 +167,13 @@ p{
     position:relative;
     left: 2.5vw;
     font-size: 3.5em; 
+    border-bottom: #ef415a 5px solid;
+    display: inline-block;
+    padding: 0;
 }
 
 .section4 img{
-    box-shadow: 1rem 1rem #b9cbc1;
+    box-shadow: 1rem 1rem #ef415a;
 }
 
 
@@ -190,7 +200,7 @@ p{
 .section5 img{
     position: relative;
     right: 2vw;
-    box-shadow: -1rem -1rem #719c8a;
+    box-shadow: -1rem -1rem #ef415a;
     
 }
 
@@ -215,7 +225,7 @@ p{
 }
 
 .section6 img{
-    box-shadow: 1rem 1rem #719c8a;
+    box-shadow: 1rem 1rem #ef415a;
 }
 .section6 p{
     margin-right: 2vw;
@@ -242,7 +252,7 @@ p{
 }
 
 .section7 img{
-    box-shadow: -1rem -1rem #b9cbc1;
+    box-shadow: -1rem -1rem #ef415a 
 }
 
 
@@ -253,6 +263,9 @@ p{
 
 .section7 h2{
     font-size: 3.5em;
+    border-bottom: #ef415a 5px solid;
+    display: inline-block;
+    padding: 0;
 }
 
 /* achtste section */
@@ -264,6 +277,9 @@ p{
 
 .section8 h2{
     font-size: 3.5em;
+    border-bottom: #ef415a 5px solid;
+    display: inline-block;
+    padding: 0;
 }
 
 .section8 p, .section8 div{
@@ -276,7 +292,7 @@ p{
 }
 
 .section8 img{
-    box-shadow: 1rem 1rem #b9cbc1;
+    box-shadow: 1rem 1rem #ef415a;
 }
 
 
@@ -285,6 +301,26 @@ p{
     padding-top: 15vh;
 }
 
+
+
+.first-text h1 {
+     position: relative;
+     top: 1.5rem;
+    }
+.first-text::before {
+        content: "";
+        position: absolute;
+        top: 65px;
+        left: 58px;
+        width: 250px;
+        height: 15px;
+        background-color: #ef415a;
+        z-index: -1;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;}
 
 
 
