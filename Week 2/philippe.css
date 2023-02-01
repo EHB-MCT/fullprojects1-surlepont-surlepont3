@@ -2,31 +2,19 @@
 
 body {
     margin: 0;
-  }
-
+}
+@media (min-width: 1200px) {
 .wrapper{
-    
+
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(6, minmax(100px, auto));
+
     position: relative;
     margin-left: 0%;
     margin-right: 0%;
     height: 100%;
 }
-#grid{
-    position:absolute;
-    display: none;
-    grid-template-columns: repeat(12, 1fr);
-    width: 100%;
-    height: 100%
 }
-#grid p{
-    border: 1px solid #000;
-    margin: 0;
-    opacity: 0.2;
-}
+
 header{
     background-color: white;
     background-repeat: repeat;
@@ -113,6 +101,56 @@ header{
     margin-left: 100px;
     margin-right: 100px;
 }
+.beliris-images{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+
+}
+.beliris-images img{
+    width: 475px;
+    padding: 5px;
+    height: 326px;
+}
+.debate h1{    margin-top: 80px;
+    font-family:"articulat-cf",sans-serif;
+    font-weight: bold;
+    text-decoration-line:underline;
+    text-decoration-color: #EF415A;
+    text-decoration-thickness: 5px;
+    font-size: 43px;
+    text-align: center;
+}
+.debate h2{
+    margin-top: 65px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight:normal;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+div.gallery {
+    margin: 5px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 445px;
+  }
+  
+  div.gallery:hover {
+    border: 3px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
 .images img{
     width: 320px;
     margin-left: 60px;

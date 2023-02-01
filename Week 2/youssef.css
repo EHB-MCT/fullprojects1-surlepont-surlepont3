@@ -537,8 +537,9 @@ footer a {
 	}
 
 	.container img {
-		margin-top: 3.5rem;
+		margin-top: 2.5rem;
 		width: calc(100% - 0.7rem);
+		width: 330px;
 		box-shadow: 0.7rem 0.7rem #ef415a;
 	}
 
@@ -614,10 +615,7 @@ footer a {
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: 0 800px;
-
 	}
-
-	
 
 	/** Wrapper **/
 	.wrapper {
@@ -717,6 +715,11 @@ footer a {
 	}
 
 	/********** Carousel-surlepont (2)**********/
+
+	.loop ul {
+		margin-top: 10px;
+	}
+
 	.carousel-surlepont {
 		padding: 0 10px 125px 10px;
 	}
@@ -741,6 +744,19 @@ footer a {
 		width: 350px;
 		height: 350px;
 		object-fit: cover;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+	}
+
+	.carousel-surlepont img:hover {
+		-webkit-transform: scale(0);
+		transform: scale(1.1);
+		margin-left: 2em;
+		margin-right: 2em;
+		
+	
 	}
 
 	section.carousel-surlepont {
@@ -773,7 +789,6 @@ footer a {
 		left: 1%;
 		border: 3px solid #ef415a;
 		width: 80px;
-	
 	}
 
 	.text {
