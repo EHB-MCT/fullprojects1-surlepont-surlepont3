@@ -543,8 +543,6 @@ footer a {
 		box-shadow: 0.7rem 0.7rem #ef415a;
 	}
 
-	
-
 	/********** Carousel-surlepont (4)**********/
 	.les-amis-dupont {
 		padding: 40px 20px 85px 20px;
@@ -556,15 +554,24 @@ footer a {
 	}
 
 	/********** Footer **********/
+
 	footer {
+		margin-left: 0;
 		display: flex;
-		padding: 40px 20px 10px 20px;
-		margin-left: 90px;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
 	}
 
-	.footer-logo {
-		width: 6.5rem;
+	footer div {
+		width: 30%;
 	}
+	footer {
+		display: flex;
+		/* padding: 40px 20px 10px 20px;*/
+	}
+
+
 
 	.footer-facebook-link h2 {
 		font-size: 1.2rem;
@@ -737,7 +744,6 @@ footer a {
 		left: 44%;
 		border: 3px solid #ef415a;
 		width: 150px;
-	
 	}
 
 	.carousel-surlepont img {
@@ -746,8 +752,8 @@ footer a {
 		object-fit: cover;
 		-webkit-transform: scale(1);
 		transform: scale(1);
-		-webkit-transition: .3s ease-in-out;
-		transition: .3s ease-in-out;
+		-webkit-transition: 0.3s ease-in-out;
+		transition: 0.3s ease-in-out;
 	}
 
 	.carousel-surlepont img:hover {
@@ -756,7 +762,6 @@ footer a {
 		margin-left: 2em;
 		margin-right: 2em;
 		box-shadow: 5px 5px 5px #ef415a;
-	
 	}
 
 	section.carousel-surlepont {
@@ -822,12 +827,19 @@ footer a {
 		left: 45.5%;
 		border: 3px solid #ef415a;
 		width: 100px;
-	
 	}
 
 	/********** Footer **********/
 	footer {
-		margin-left: 16.5em;
+		margin-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	footer div {
+		width: 30%;
 	}
 
 	.close {

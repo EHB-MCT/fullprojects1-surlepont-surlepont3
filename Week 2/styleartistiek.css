@@ -1,0 +1,282 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/********** Nav **********/
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 10px 0 10px;
+}
+
+.logo {
+	width: 5rem;
+	margin-top: -0.5em;
+}
+
+nav {
+	position: fixed;
+	right: 0;
+	top: 0;
+	height: 100vh;
+	background-color: #2f3247;
+	width: 50%;
+	z-index: 2;
+	transform: translateX(100%);
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 7em;
+}
+
+ul a {
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color: white;
+	padding: 0.6em;
+	text-align: center;
+	display: block;
+}
+
+ul a:hover {
+	color: #ef415a;
+}
+
+.facebook-link a {
+	text-decoration: none;
+	font-size: 2.5rem;
+}
+
+.menu {
+	font-size: 2.5em;
+	margin-top: 0.2em;
+	cursor: pointer;
+}
+
+.open-nav {
+	transform: translateX(0%);
+	animation: rightSlide 1s backwards;
+}
+
+@keyframes rightSlide {
+	from {
+		clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+	}
+
+	to {
+		clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+	}
+}
+
+.close {
+	float: right;
+	margin: 0.8em 0.4em 0.5em 0.4em;
+	font-size: 2.05em;
+	color: white;
+	animation: leftSlide 1s backwards;
+	cursor: pointer;
+}
+
+/********** Main **********/
+main {
+	padding-top: 480px;
+}
+
+
+
+/********** Footer **********/
+
+footer {
+	text-align: center;
+	padding-top: 30px;
+	padding: 40px 20px 5px 20px;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+.footer-logo {
+	width: 6.5rem;
+}
+
+.footer-facebook-link h2 {
+	font-size: 1.35rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.footer-facebook-icon {
+	font-size: 3rem;
+	color: black;
+	transition: 0.8s;
+	text-decoration: none;
+}
+
+.footer-facebook-icon:hover {
+	color: #676767;
+}
+
+.footer-contact h2 {
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.footer-contact p {
+	font-size: 1rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.footer-contact a {
+	color: black;
+}
+
+.copyright p {
+	font-size: 0.7rem;
+	font-family: "montserrat", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+/** Tablet **/
+@media (min-width: 768px) {
+	/********** Nav **********/
+	header {
+		padding: 10px 20px 0 20px;
+	}
+
+	ul a {
+		font-size: 1.7rem;
+	}
+
+	.close {
+		margin: 0.8em 0.5em 0.5em 0.5em;
+	}
+
+	/********** Main **********/
+	main {
+		padding-top: 500px;
+	}
+
+	
+
+	/********** Footer **********/
+
+	footer {
+		margin-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	footer div {
+		width: 30%;
+	}
+	footer {
+		display: flex;
+		/* padding: 40px 20px 10px 20px;*/
+	}
+
+
+
+	.footer-facebook-link h2 {
+		font-size: 1.2rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		max-width: 70%;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+
+	.footer-facebook-icon {
+		font-size: 3rem;
+		color: black;
+		transition: 0.8s;
+	}
+
+	.footer-facebook-icon:hover {
+		color: #676767;
+	}
+
+	.footer-contact h2 {
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		text-align: left;
+	}
+
+	.footer-contact p {
+		font-size: 0.8rem;
+		text-align: left;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	.copyright p {
+		padding-top: 30px;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+}
+
+/** Desktop **/
+@media (min-width: 1200px) {
+	body {
+		background-image: url(images/vorming.svg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: 0 800px;
+	}
+
+	/** Wrapper **/
+	.wrapper {
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	/********** Nav **********/
+
+	/********** Main **********/
+	main {
+		padding-top: 600px;
+	}
+
+	
+
+	/********** Footer **********/
+	footer {
+		margin-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	footer div {
+		width: 30%;
+	}
+
+	.close {
+		float: right;
+		margin: 0.8em 4.5em 0.5em 3em;
+		font-size: 2.5em;
+		color: white;
+	}
+}
