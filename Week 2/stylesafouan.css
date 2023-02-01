@@ -30,8 +30,7 @@ main h1{
     font-style: normal;
     display: inline-block;
     margin: 0 auto;
-    text-align: 
-   
+  
 }
 
 figure{
@@ -67,7 +66,7 @@ p{
 }
 
 .section1 img{
-    box-shadow: -1rem -1rem #719c8a;
+    box-shadow: -1rem -1rem #ef415a;
 }
 .section1 div{
     flex-basis: 50%;
@@ -98,7 +97,7 @@ p{
 }
 
 .section2 img{
-    box-shadow: 1rem 1rem #b9cbc1;
+    box-shadow: 1rem 1rem #ef415a;
 }
 
 
@@ -125,6 +124,7 @@ p{
     border-bottom: #ef415a 5px solid;
     display: inline-block;
     padding: 0;
+    margin-left: 25px;
 }
 
 .section3 p{
@@ -135,7 +135,7 @@ p{
 .section3 img{
     text-align: left;
    
-    box-shadow: -1rem -1rem #719c8a;
+    box-shadow: -1rem -1rem #ef415a;
 }
 
 .section3 figure{
@@ -173,7 +173,7 @@ p{
 }
 
 .section4 img{
-    box-shadow: 1rem 1rem #b9cbc1;
+    box-shadow: 1rem 1rem #ef415a;
 }
 
 
@@ -200,7 +200,7 @@ p{
 .section5 img{
     position: relative;
     right: 2vw;
-    box-shadow: -1rem -1rem #719c8a;
+    box-shadow: -1rem -1rem #ef415a;
     
 }
 
@@ -225,7 +225,7 @@ p{
 }
 
 .section6 img{
-    box-shadow: 1rem 1rem #719c8a;
+    box-shadow: 1rem 1rem #ef415a;
 }
 .section6 p{
     margin-right: 2vw;
@@ -252,7 +252,7 @@ p{
 }
 
 .section7 img{
-    box-shadow: -1rem -1rem #b9cbc1;
+    box-shadow: -1rem -1rem #ef415a 
 }
 
 
@@ -292,7 +292,7 @@ p{
 }
 
 .section8 img{
-    box-shadow: 1rem 1rem #b9cbc1;
+    box-shadow: 1rem 1rem #ef415a;
 }
 
 
