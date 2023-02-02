@@ -761,7 +761,8 @@ footer a {
 		transform: scale(1.1);
 		margin-left: 2em;
 		margin-right: 2em;
-		box-shadow: 5px 5px 5px #ef415a;
+		
+		box-shadow: 0.5rem 0.5rem #ef415a;
 	}
 
 	section.carousel-surlepont {
