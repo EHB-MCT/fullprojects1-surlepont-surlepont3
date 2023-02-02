@@ -98,8 +98,7 @@ ul a:hover {
     margin-top: 1.5rem;
     font-family:"articulat-cf",sans-serif;
     font-weight: bold;
-    text-decoration-line:underline;
-    text-decoration-color: #EF415A;
+
     text-decoration-thickness: 5px;
     font-size: 800;
     text-align: center;
@@ -138,6 +137,7 @@ ul a:hover {
     width: 475px;
     padding: 5px;
 }
+
 .render2{
     width: 1000px;
     display: block;
@@ -154,9 +154,7 @@ ul a:hover {
     margin-top: 80px;
     font-family:"articulat-cf",sans-serif;
     font-weight: bold;
-    text-decoration-line:underline;
-    text-decoration-color: #EF415A;
-    text-decoration-thickness: 5px;
+
     font-size: 800;
     text-align: center;
 }
@@ -170,6 +168,7 @@ ul a:hover {
     width: 60%;
 }
 .beliris-images{
+    margin-top: 20px;
     width: 1000px;
     display: block;
     margin-left: auto;
@@ -185,9 +184,8 @@ ul a:hover {
 .debate h1{    margin-top: 80px;
     font-family:"articulat-cf",sans-serif;
     font-weight: bold;
-    text-decoration-line:underline;
-    text-decoration-color: #EF415A;
-    text-decoration-thickness: 5px;
+
+
     font-size: 800;
     text-align: center;
 }
@@ -199,28 +197,32 @@ ul a:hover {
     margin:0 auto;
     text-align: left;
     width: 60%;
-    margin-bottom: 50px;
+ 
+    background-color: #E9EFF5;
 }
 div.gallery {
     border: 3px solid #ccc;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
     width: 650px;
     margin-bottom: 50px;
-    background-color: ;
+    margin-top: 50px;
   }
   
   div.gallery:hover {
-    border: 3px solid #777;
+    border: 3px solid #ef415a;
   }
   
   div.gallery img {
     width: 100%;
     height: auto;
+    background: #E9EFF5;
   }
   
   div.desc {
     padding: 15px;
     text-align: center;
+    background-color: white;
   }
 
 
