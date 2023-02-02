@@ -195,7 +195,7 @@ ul a:hover {
     font-size: 20px;
     font-weight:normal;
     margin:0 auto;
-    text-align: left;
+    text-align: center;
     width: 60%;
  
     background-color: #E9EFF5;
@@ -223,6 +223,9 @@ div.gallery {
     padding: 15px;
     text-align: center;
     background-color: white;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
   }
 
 
