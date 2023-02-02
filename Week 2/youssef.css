@@ -555,6 +555,10 @@ footer a {
 
 	/********** Footer **********/
 
+	.footer-facebook-link h2 {
+		width: 110%;
+	}
+
 	footer {
 		margin-left: 0;
 		display: flex;
@@ -631,6 +635,63 @@ footer a {
 	}
 
 	/********** Nav **********/
+
+	.logo {
+		margin-top: -2.8rem;
+	}
+
+	.close {
+		display: none;
+	 }
+ 
+	 .menu {
+		 display: none;
+	 }
+ 
+	 nav {
+		 transform: translateX(0);
+		 position: unset;
+		 display: block;
+		 width: auto;
+		 height: auto;
+		 background: none;
+		 margin-right: 115px;;
+		 
+		 
+	 }	
+
+	 
+	 nav ul {
+		 display: flex;
+		 margin: 0;
+	 }
+ 
+	 nav li a {
+		 color: black;
+		 font-size: 1.2rem;
+		 margin: 5px;
+	 }
+ 
+	 .language {
+		 display: flex;
+		
+	 }
+ 
+	 header .ri-facebook-circle-fill {
+		 color: black;
+		 position: relative;
+		 top:-1rem;
+		 font-size: 2rem;
+	
+		 
+	 }
+
+	 header .ri-facebook-circle-fill:hover {
+		color: #ef415a;
+		
+		
+	}
+
 
 	/********** Main **********/
 	main {
@@ -851,4 +912,7 @@ footer a {
 		font-size: 2.5em;
 		color: white;
 	}
+
+   
 }
+
