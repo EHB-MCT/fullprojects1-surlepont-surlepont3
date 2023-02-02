@@ -202,7 +202,8 @@ ul a:hover {
 }
 div.gallery {
     border: 3px solid #ccc;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
     width: 650px;
     margin-bottom: 50px;
     margin-top: 50px;
