@@ -139,6 +139,10 @@ video {
 	
 }
 
+main img {
+	width: 100%;
+}
+
 
 
 /********** Footer **********/
@@ -281,6 +285,15 @@ footer a {
 		padding-top: 50px;
 		text-align: center;
 	}
+
+	main img {
+		width: 70%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto; 
+		border: 15px solid #ef415a;
+	}
+	
 
 
 	
@@ -451,9 +464,17 @@ footer a {
 		font-weight: 800;
 		font-style: normal;
 		padding-top: 50px;
-		
-
 	}
+
+	main img {
+		width: 30%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto; 
+		border: 15px solid #ef415a;
+	}
+
+
 	
 	
 
