@@ -903,8 +903,4 @@ footer a {
 }
 
 /** Desktop **/
-@media (min-width: 1700px) {
-	main {
-		margin-top: 500px;
-	}
-}
+
