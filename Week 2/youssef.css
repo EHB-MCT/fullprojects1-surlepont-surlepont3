@@ -15,6 +15,11 @@ header {
 	margin-top: -0.5em;
 }
 
+.language {
+	display: flex;
+	margin-left: 0.9rem;
+}
+
 nav {
 	position: fixed;
 	right: 0;
@@ -400,7 +405,13 @@ footer a {
 	}
 
 	ul a {
-		font-size: 1.7rem;
+		font-size: 1.3rem;
+	}
+
+	.language {
+		display: flex;
+		margin-left: 7.9rem;
+		
 	}
 
 	.close {
@@ -653,7 +664,7 @@ footer a {
 		width: auto;
 		height: auto;
 		background: none;
-		margin-right: 115px;
+		margin-left: 10rem;
 	}
 
 	nav ul {
