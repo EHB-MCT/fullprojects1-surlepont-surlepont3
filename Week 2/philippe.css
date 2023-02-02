@@ -110,8 +110,9 @@ ul a:hover {
     font-family: 'Montserrat',sans-serif;
     font-weight:  400;
     font-size:1.25em;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin:0 auto;
+    text-align: left;
+    width: 50%;
 }
 .plan{
     margin-top: 50px;
@@ -156,7 +157,7 @@ ul a:hover {
     text-decoration-line:underline;
     text-decoration-color: #EF415A;
     text-decoration-thickness: 5px;
-    font-size: 43px;
+    font-size: 800;
     text-align: center;
 }
 .beliris h2{
@@ -164,8 +165,9 @@ ul a:hover {
     font-family: 'Montserrat',sans-serif;
     font-size: 20px;
     font-weight:normal;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin:0 auto;
+    text-align: left;
+    width: 50%;
 }
 .beliris-images{
     width: 1000px;
@@ -186,7 +188,7 @@ ul a:hover {
     text-decoration-line:underline;
     text-decoration-color: #EF415A;
     text-decoration-thickness: 5px;
-    font-size: 43px;
+    font-size: 800;
     text-align: center;
 }
 .debate h2{
@@ -194,8 +196,9 @@ ul a:hover {
     font-family: 'Montserrat',sans-serif;
     font-size: 20px;
     font-weight:normal;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin:0 auto;
+    text-align: left;
+    width: 50%;
 }
 div.gallery {
     border: 3px solid #ccc;
