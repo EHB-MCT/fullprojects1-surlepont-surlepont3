@@ -84,8 +84,59 @@ ul a:hover {
 }
 
 /********** Main **********/
-main {
-	padding-top: 480px;
+ main {
+	padding: 10px 10px 0 10px;
+}
+
+.section-1 h1 {
+	font-size: 1.2rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	
+}
+
+video {
+	width: 100%;
+}
+
+.section-2 h1 {
+	font-size: 1.2rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	padding-top: 50px;
+	
+}
+
+.section-2 a {
+    text-decoration: none;
+	color: black;
+
+}
+
+.section-2 h1:hover {
+    text-decoration: none;
+	color: #ef415a
+
+}
+
+.section-3 h1 {
+	font-size: 1.2rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	padding-top: 50px;
+	
+}
+
+.section-4 h1 {
+	font-size: 1.2rem;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	padding-top: 50px;
+	
 }
 
 
@@ -167,10 +218,70 @@ footer a {
 		margin: 0.8em 0.5em 0.5em 0.5em;
 	}
 
+	
+
 	/********** Main **********/
 	main {
-		padding-top: 500px;
+		padding: 10px 10px 0 10px;
+		
 	}
+	
+	.section-1 h1 {
+		font-size: 1.4rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		text-align: center;
+		padding-bottom: 20px;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto 
+		
+	}
+	
+	video {
+		width: 78%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto 
+	
+	}
+	
+	.section-2 h1 {
+		font-size: 1.4rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		padding-top: 50px;
+		text-align: center;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto 
+		
+	}
+
+	.section-3 h1 {
+		font-size: 1.4rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		padding-top: 50px;
+		text-align: center;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto 
+		
+	}
+
+	.section-4 h1 {
+		font-size: 1.4rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		padding-top: 50px;
+		text-align: center;
+	}
+
 
 	
 
@@ -238,13 +349,14 @@ footer a {
 
 /** Desktop **/
 @media (min-width: 1200px) {
-	body {
-		background-image: url(images/vorming.svg);
-		background-size: 100%;
-		background-repeat: no-repeat;
-		background-position: 0 800px;
-	}
 
+
+	body {
+		background-image: url(images/vorminga.svg);
+		background-size: 101%;
+		background-repeat: no-repeat;
+		background-position: 0 100px;
+	}
 	/** Wrapper **/
 	.wrapper {
 		width: 1200px;
@@ -254,9 +366,100 @@ footer a {
 	/********** Nav **********/
 
 	/********** Main **********/
+
+	/********** Main **********/
 	main {
-		padding-top: 600px;
+		padding: 10px 10px 0 10px;
+		
 	}
+	
+	.section-1 h1 {
+		font-size: 2rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		text-align: center;
+		padding-bottom: 20px;
+		position: relative;
+		
+	}
+
+
+	.section-1::before {
+		content: "";
+		position: absolute;
+		top: 140px;
+		left: 58px;
+		width: 300px;
+		height: 6px;
+		background-color: #ef415a;
+		z-index: -1;
+
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+	
+	video {
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto 
+		
+	
+	}
+	
+	.section-2 h1 {
+		font-size: 2rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		padding-top: 50px;
+	
+		width: 60%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto 
+	
+		
+	}
+
+	.section-2 h1 {
+		font-size: 2rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		padding-top: 50px;
+		
+	}
+
+	.section-3 h1 {
+		font-size: 2rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		padding-top: 50px;
+		width: 50%;
+		
+	}
+
+	.section-4 h1 {
+		font-size: 2rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		padding-top: 50px;
+		
+
+	}
+	
+	
+
+	
+
+	
 
 	
 
