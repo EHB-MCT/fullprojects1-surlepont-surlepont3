@@ -268,4 +268,184 @@ div.gallery {
     background-color: #8d3737;  
 }
 
+@media (min-width:768px){
+	header {
+		padding: 10px 20px 0 20px;
+	}
+    	ul a {
+		font-size: 1.7rem;
+	}
+    	.close {
+		margin: 0.8em 0.5em 0.5em 0.5em;
+	}
+}
+/** Tablet **/
+@media (max-width: 768px) {
+	/********** Nav **********/
 
+
+
+
+    .plan img{
+        width: 100%;
+    }    
+    .render{
+        margin-top: 20px;
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .render2{
+        margin-top: 20px;
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .beliris-images{
+        margin-top: 20px;
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	/********** Main **********/
+	main {
+		padding-top: 500px;
+	}
+  
+
+
+	/********** Footer **********/
+
+	footer {
+		margin-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	footer div {
+		width: 30%;
+	}
+	footer {
+		display: flex;
+		/* padding: 40px 20px 10px 20px;*/
+	}
+
+
+
+	.footer-facebook-link h2 {
+		font-size: 1.2rem;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		max-width: 70%;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+
+	.footer-facebook-icon {
+		font-size: 3rem;
+		color: black;
+		transition: 0.8s;
+	}
+
+	.footer-facebook-icon:hover {
+		color: #676767;
+	}
+
+	.footer-contact h2 {
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		text-align: left;
+	}
+
+	.footer-contact p {
+		font-size: 0.8rem;
+		text-align: left;
+		font-family: "articulat-cf", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	.copyright p {
+		padding-top: 30px;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+}
+
+/** Desktop **/
+@media (min-width: 1200px) {
+
+
+	/** Wrapper **/
+	.wrapper {
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	/********** Nav **********/
+
+	/********** Main **********/
+	main {
+		padding-top: 600px;
+	}
+
+	/********** Hero (1) **********/
+
+	/********** Footer **********/
+
+
+	footer {
+		margin-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	footer div {
+		width: 30%;
+	}
+
+	.close {
+		float: right;
+		margin: 0.8em 4.5em 0.5em 3em;
+		font-size: 2.5em;
+		color: white;
+	}
+}
+@media (max-width:320px){
+    body{
+        width: 320px;
+    }
+    .render{
+        margin-top: 20px;
+        width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .render2{
+        margin-top: 20px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .beliris-images{
+        margin-top: 20px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gallery{
+        width: 100%;
+    }
+}
