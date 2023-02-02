@@ -424,6 +424,9 @@ div.gallery {
     body{
         width: 320px;
     }
+    main {
+		width:320px;
+	}
     .render{
         margin-top: 20px;
         width: 250px;
